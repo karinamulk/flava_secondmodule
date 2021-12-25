@@ -5,13 +5,15 @@
     <title>Flava</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="javascript/all.js" charset="utf-8"></script>
     <link rel="stylesheet" href="stylesheet/style.css">
 
     <style media="screen">
       body{
         width: 100%;
         margin: 0;
-        /* background: black; */
+        background: #111112;
         display: block;
         position: relative;
         /* height: 100%; */
@@ -46,16 +48,16 @@
         <div class="content">
           <div class="first">
             <div class="phone_menu blocker">
-              <p>о плафторме</p>
-              <p>для кого</p>
-              <p>подписка</p>
+              <a href="#s1"><p>о плафторме</p></a>
+              <a href="#s2"><p>для кого</p></a>
+              <a href="#s3"><p>подписка</p></a>
             </div>
             <div class="menubar">
               <img src="images/logo.svg" alt="" class="logo">
               <div class="menubar_text">
-                <p class="p_menu">о плафторме</p>
-                <p class="p_menu">для кого</p>
-                <p class="p_menu">подписка</p>
+                <a href="#s1"><p class="p_menu">о плафторме</p></a>
+                <a href="#s2"><p class="p_menu">для кого</p></a>
+                <a href="#s3"><p class="p_menu">подписка</p></a>
                 <img src="images/burger.svg" alt="" class="burger">
 
               </div>
@@ -66,7 +68,7 @@
             <img src="images/ariana.png" alt="" class="ariana">
           </div>
 
-          <div class="second">
+          <div class="second" id="s1">
             <div class="">
               <h2>Flava — первый медиа–сервис  о визуальных образах музыкальных исполнителей, где собрана информация о стиле одежды артистов разных времён и жанров</h2>
             </div>
@@ -171,7 +173,7 @@
             </div>
 
           </div>
-          <div class="sixth">
+          <div class="sixth" id="s2">
             <h2>Flava создана для тех, кто заинтересован в&nbsp;моде и музыке. Присоединяйся, если ты </h2>
             <h1 class="who1">фанат</h1>
             <img src="images/who1.jpg" alt="" class="who_photo1">
@@ -187,7 +189,7 @@
 
 
           </div>
-          <div class="seventh">
+          <div class="seventh" id="s3">
             <h1>Стань ближе к музыкантам с Flava</h1>
             <a href="#"><div class="button" id="button8">Оформить подписку</div></a>
             <img src="images/social.svg" alt="" class="social">
