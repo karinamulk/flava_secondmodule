@@ -647,3 +647,16 @@ h1 {
 }
 .phone_menu {background-color: #33FEB4; ; position: absolute; z-index: 150; right: 5.2%; padding: 3.7% 0% 3% 6.4%; top: 7.7%; width: 45.7%; height: 15.6%; transition: all .2s;}
 .phone_menu p {color: #111112; display: inline-block; margin-top: 3.6%;}
+.menubar {z-index: 100}
+.p_menu {transition: all .4s;}
+.p_menu:hover {
+  color: #FC62FF;
+  transition: all .2s;
+}
+#button_extra1 {
+  transition: all .4s;
+}
+#button_extra1:hover {
+  background: #33FEB4;
+  transition: all .2s;
+}
