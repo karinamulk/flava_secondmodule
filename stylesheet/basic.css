@@ -41,6 +41,7 @@
   height: 9.34%;
   background: #111112;
   padding: 0 3.472%;
+  display: inline-block;
 }
 .fourth {
   position: relative;
@@ -93,8 +94,10 @@
 }
 p {
   font-family: "Pangram Medium";
-  font-size: 22px;
-  line-height: 23.1px;
+  /* font-size: 22px; */
+  font-size: 1.53vw;
+  /* line-height: 23.1px; */
+  line-height: 1.6vw;
   color: #F2F2F2;
 }
 
@@ -114,9 +117,11 @@ p {
 }
 h2 {
   font-family: "Pangram Semibold";
-  font-size: 44px;
-  line-height: 47px;
-  width: 49%;
+  /* font-size: 44px; */
+  /* line-height: 47px; */
+  font-size: 3.06vw;
+  line-height: 3.25vw;
+  width: 48%;
   color: #F2F2F2;
   margin-top: 10.1%;
 }
@@ -126,11 +131,16 @@ h2 {
 }
 .button {
   font-family: "Pangram Semibold";
-  font-size: 22px;
-  line-height: 23.1px;
+  font-size: 1.53vw;
+
+  line-height: 1.6vw;
+
+  /* font-size: 22px; */
+  /* line-height: 23.1px; */
   color: #111112;
   background: #FC62FF;
-  padding: 18px 28px;
+  /* padding: 18px 28px; */
+  padding: 1.3vw 1.8vw;
   display: inline-block;
 }
 #button1 {
@@ -152,16 +162,20 @@ h2 {
 }
 h4 {
   font-family: "Pangram Semibold";
-  font-size: 136px;
-  line-height: 143px;
+  /* font-size: 136px; */
+  /* line-height: 143px; */
+  font-size: 9.45vw;
+  line-height: 9.85vw;
   color: #111112;
   margin-top: 0;
   display: inline-block;
 }
 h1 {
   font-family: "Pangram Semibold";
-  font-size: 88px;
-  line-height: 92px;
+  /* font-size: 88px; */
+  font-size: 6.12vw;
+  line-height: 6.35vw;
+  /* line-height: 92px; */
   color: #111112;
   margin-top: 0;
   display: inline-block;
@@ -176,8 +190,10 @@ h1 {
   color: #EBFF00;
 }
 .facts p {
-  font-size: 36px;
-  line-height: 38px;
+  /* font-size: 36px; */
+  font-size: 2.5vw;
+  line-height: 2.6vw;
+  /* line-height: 38px; */
   margin-top: -2%;
 }
 .fact1 p {
@@ -273,12 +289,14 @@ h1 {
 }
 .fifth h2 {
   margin-top: 7.1%;
-  line-height: 45px;
+  /* line-height: 45px; */
+  line-height: 3.07vw;
   width: 37%;
 }
 .fifth h2+p {
   margin-top: 2%;
-  line-height: 25px;
+  /* line-height: 25px; */
+  line-height: 1.75vw;
   width: 31%;
 }
 #button4 {
@@ -305,7 +323,7 @@ h1 {
 }
 .fifth2 h2 {
   margin-top: 19.1%;
-  line-height: 45px;
+  /* line-height: 45px; */
   margin-left: 47%;
   width: 57%;
 }
@@ -375,6 +393,7 @@ h1 {
   font-family: "Pangram Medium";
   margin-top: 6.5%;
   color: #111112;
+  width: 50%;
 }
 .sixth h1 {
   font-family: "Pangram Medium";
@@ -404,7 +423,8 @@ h1 {
 .seventh h1 {
   margin-top: 4.4%;
   width: 70%;
-  line-height: 100px;
+  /* line-height: 100px; */
+  line-height: 6.9vw;
   display: block;
   color: #F2F2F2;
 }
@@ -505,6 +525,7 @@ h1 {
   margin: 0;
   left: 8.5%;
   top: 19.6%;
+  z-index: 101;
 }
 .paper1 {
   /* display: none; */
@@ -523,10 +544,12 @@ h1 {
   color: #FC62FF;
   margin-top: 5.3%;
 }
-
+.paper1 h2 {
+  width: 60%;
+}
 .paper3 {
   height: 34.5%;
-  right: 14.9%;
+  right: 12.9%;
   top: auto;
   left: auto;
   bottom: 25.5%;
@@ -582,6 +605,8 @@ h1 {
   position: absolute;
   right: 4.9%;
   top: 5.9%;
+  z-index: 120;
+  transition: all .4s;
 }
 .krest2 {
   position: absolute;
@@ -593,9 +618,32 @@ h1 {
   right: 3.7%;
   top: 6%;
 }
+.krest:hover {
+  opacity: 0;
+  transition: all .2s;
+  cursor: pointer;
+}
+
 .blocker {
   display: none;
 }
 .hidden {
-  opacity: 0;
+  opacity: 0%;
+  transition: all .2s;
 }
+.show {
+  opacity: 100%;
+  transition: all .2s;
+}
+.fifth_photo5_ipad {
+  display: none;
+}
+.round1, .round2, .round3 {
+  z-index: 100
+}
+
+.burger {
+  display: none;
+}
+.phone_menu {background-color: #33FEB4; ; position: absolute; z-index: 150; right: 5.2%; padding: 3.7% 0% 3% 6.4%; top: 7.7%; width: 45.7%; height: 15.6%; transition: all .2s;}
+.phone_menu p {color: #111112; display: inline-block; margin-top: 3.6%;}
