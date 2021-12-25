@@ -73,5 +73,30 @@ $(document).ready(function(){
     });
   }
 
+    $(function() {
+  $('.menubar a').each(function() {
+  $(this).on('click', function(e) {
+    e.preventDefault();
+    var scrollTo = $(this).attr('href');
+    var whitespace = scrollTo == '#s1';
+    $('html,body').animate({
+      scrollTop: $(scrollTo).offset().top - whitespace
+    }, 1000);
+  });
+  });
+  });
+
+  $(function() {
+$('.phone_menu a').each(function() {
+$(this).on('click', function(e) {
+  e.preventDefault();
+  var scrollTo = $(this).attr('href');
+  var whitespace = scrollTo == '#s1';
+  $('html,body').animate({
+    scrollTop: $(scrollTo).offset().top - whitespace
+  }, 1000);
+});
+});
+});
 
  });
