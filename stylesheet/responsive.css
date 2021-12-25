@@ -1,0 +1,154 @@
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+
+  .sootnosheniye {position: relative; padding-bottom: 687.24%;}
+  .first {height: 19.33%; padding: 0 4%;}
+  .second {height: 7.18%; padding: 0 4%;}
+  .third {height: 6.953%; padding: 0 4%;}
+  .fourth {height: 13.7%; padding: 0 4%;}
+  .fifth {height: 25.87%; padding: 0 4%;}
+  .sixth {height: 12.54%; padding: 0 4%;}
+  .seventh {height: 14.427%; padding: 0 4%;}
+
+  p {font-size: 2.32vw; line-height: 2.7vw;  margin-top: 3.74%; }
+  .first h2+p {width: 39%; margin-top: 3.2%}
+  h2 {font-size: 4.675vw; line-height: 4.9vw; width: 70%; margin-top: 14.3%;}
+  .button {font-size: 2.32vw; line-height: 2.4vw; padding: 2.4vw 3.5vw;}
+  #button1 {margin-top: 9.5%;}
+  .logo {width: 14.2%; margin-top: 6%;}
+  .menubar_text {width: 66%; margin-top: 4.3%;}
+  .ariana {width: 132%; right: -33.5%;}
+  .second h2 {width: 87%; margin-top: 12.2%;}
+  h4 {font-size: 9.8vw; line-height: 10.8vw;}
+  .facts div { margin-top: 9.6%;}
+  .facts {width: 91.8%;}
+  #button2 {margin-right: 7.9%; margin-top: 9.1%;}
+  h1 {font-size: 7.02vw; line-height: 7.3vw;}
+  .fourth h1 {margin-top: 7.8%;}
+  .fourth p {margin-left: 7.7%; margin-top: 8.25%;}
+  .tyler1 {left: 10.8%; bottom: 26.7%; width: 47%;}
+  .tyler2 {right: 26.2%; top: 24.94%; width: 15%;}
+  .tyler3 {right: 18.2%; bottom: 28.5%; width: 15%;}
+  #notice {left: 3.1%; width: 20%; bottom: 15.5%;}
+  .strelka {width: 7.1%; left: 19.2%; bottom: 22.6%;}
+  .round1 {left: 30.3%; top: 31.6%;}
+  .round2 {left: 40%; top: 50.5%;}
+  .round3 {left: 24.5%; bottom: 31%;}
+  #button3 {margin-right: 7.9%; margin-top: 51%;}
+  .fifth h2 {margin-top: 8.3%; line-height: 4.7vw; width: 57%;}
+  .fifth h2+p {margin-top: 3.1%; line-height: 2.8vw; width: 40%;}
+  #button4 {margin-top: 8.3%;}
+  .fifth_photo1 {right: 40.1%; top: 13.5%; width: 17.7%;}
+  .fifth_photo2 {right: 18.2%; top: 10.4%; width: 20%;}
+  .fifth2 h2 {margin-top: 16%;}
+  #button5 {margin-top: 8.9%; margin-right: 36.8%;}
+  .fifth_photo3 {left: 3.55%; top: 42.4%; width: 27.3%;}
+  .fifth_photo4 {left: 10.9%; top: 49.6%; width: 27.2%;}
+  #tag1 {left: 32.7%; top: 40.7%;}
+  #tag2 {left: 3.7%; top: 34.53%;}
+  #tag3 {left: 3.2%; top: 55%;}
+  .fifth3 h2 {margin-top: 30.7%; width: 54%;}
+  .fifth3 h2+p {width: 32%;}
+  #button6 {margin-top: 9%;}
+  .fifth_photo5 {display: none;}
+  .fifth_photo5_ipad {display: block; right: 7.5%; top: 72.6%; width: 60%;}
+  .sixth h2 {margin-top: 7.5%; width: 84%;}
+  .who1 {margin-top: 6% !important;}
+  .sixth h1 {margin-top: 1.65%;}
+  #button7 {margin-top: 7%;}
+  .sixth img {width: 41.5%; right: 11.1%; top: 33.6%;}
+  .seventh h1 {margin-top: 9%; line-height: 8vw;}
+  #button8 {margin-top: 6.8%;}
+  .social {right: 10.9%; top: 14.4%; width: 17.9%;}
+  .social_text {right: 13.1%; top: 5.7%;}
+  .logo_futter {width: 21.5%; margin-top: 13.7%;}
+  .futter p {margin-top: 0.1%; width: 44%;}
+  .futter {display: inline-block;}
+  .futter > * {display: inline-block;}
+  .year {width: auto !important; float: right; margin-top: 25.5% !important; margin-right: 1%;}
+  .futter_photo {width: 93%; right: 7%;}
+}
+
+@media only screen and (max-width: 500px) {
+
+  .sootnosheniye {position: relative; padding-bottom: 1979.06%;}
+  .first {height: 9.522%; padding: 0 6%;}
+  .second {height: 3.62%; padding: 0 6%;}
+  .third {height: 9.743%; padding: 0 6%;}
+  .fourth {height: 13.96%; padding: 0 6%;}
+  .fifth {height: 36.823%; padding: 0 6%;}
+  .sixth {height: 13.04%; padding: 0 6%;}
+  .seventh {height: 13.292%; padding: 0 6%;}
+
+  p {font-size: 6.2vw; line-height: 7.2vw;  margin-top: 3.74%; }
+  .first h2+p {display: none;}
+  h2 {font-size: 6.23vw; line-height: 6.6vw; width: 80%; margin-top: 16%;}
+  .first h2 {line-height: 7.2vw;}
+  .button {font-size: 4.35vw; line-height: 7vw; padding: 3.4vw 4.8vw 2.8vw 4.8vw;}
+  #button1 {margin-top: 9.5%;}
+
+  .p_menu {display: none;}
+  .burger {display: inline-block;  width: 100%;}
+  .logo {width: 35.6%; margin-top: 16.3%;}
+  .menubar_text {display: inline-block; width: auto; margin-top: 17.5%;}
+  .menubar_text p {display: none;}
+  .ariana {width: 173%; right: -58.5%;}
+  .second h2 {width: 87%; margin-top: 12.7%;}
+  h4 {font-size: 23.7vw; line-height: 24vw;}
+  .facts p {font-size: 6.23vw; line-height: 6.6vw; margin-top: 1%;}
+  .fact1 p {margin-left: 21%;}
+  .fact2 p {margin-left: 24.6%;}
+  .fact3 p {margin-left: 7%;}
+  .fact1 {margin-left: 15%; margin-top: 10% !important;}
+  .fact2 {margin-left: 12%; margin-top: 12.7% !important;}
+  .fact3 {margin-left: 18.5%;}
+  .facts {width: 91.8%; flex-direction: column; margin-top: 13%; }
+  #button2 {margin-right: 36%; margin-top: 20.5%;}
+  h1 {font-size: 12.4vw; line-height: 13.6vw;}
+  .fourth h1 {margin-top: 12.8%; width: 70%;}
+  .fourth p {margin-left: 0%; margin-top: 9.3%; width: 70%;}
+  .tyler1 {left: 5.2%; bottom: 24.5%; width: 79.5%;}
+  .tyler2 {right: 0; top: 27.9%; width: 37.9%; left: 5.2%;}
+  .tyler3 {right: 15.4%; bottom: 0%; width: 37.8%; top: 21.8%;}
+  #notice {left: 5.2%; width: 50%; bottom: 12.6%;}
+  .strelka {width: 16.5%; left: 14.7%; bottom: 20.7%;}
+  .round {width: 4.8%;}
+  .round1 {left: 37.3%; top: auto; bottom: 47.3%;}
+  .round2 {left: 53.5%; top: auto; bottom: 36.4%;}
+  .round3 {left: 28.3%; bottom: 27.5%;}
+  #button3 {margin-right: 11.5%; margin-top: 185.5%;}
+  .fifth h2 {font-size: 12.4vw; line-height: 12.5vw; margin-top: 12.3%; width: 100%; }
+  .fifth h2+p {margin-top: 13%; line-height: 7.15vw; width: 65%;}
+  .fifth2 p {margin-left: 0; width: 70% !important;}
+  #button4 {margin-top: 95.4%; float: right; margin-right: 11.7%;}
+  .fifth_photo1 {right: auto; top: 19%; width: 34.2%; left: 5.2%;}
+  .fifth_photo2 {right: 15.6%; top: 17.25%; width: 41.8%;}
+  .fifth2 h2 {margin-top: 135%; margin-left: 0%; width: 74%;}
+  #button5 {margin-top: 117%; margin-right: 12%;}
+  .fifth_photo3 {left: 4.5%; top: 53.95%; width: 58.8%;}
+  .fifth_photo4 {left: 26.3%; top: auto; width: 58%; bottom: 39.05%;}
+  #tag1, #tag2, #tag3 {font-size: 5.55vw; line-height: 6vw;}
+  #tag1 {left: 67.7%; top: 53.9%;}
+  #tag2 {left: 4.7%; top: 51.1%;}
+  #tag3 {left: 3.4%; top: 62%;}
+  .fifth3 h2 {margin-top: 156%; width: 100%;}
+  .fifth3 h2+p {width: 70%;}
+  #button6 {margin-top: 103%; margin-left: 59.8%;}
+  .fifth_photo5 {display: none;}
+  .fifth_photo5_ipad {display: block; right: 11%; bottom: 6.9%; width: 89%;}
+  .sixth h2 {margin-top: 11%; width: 78%;}
+  .who1 {margin-top: 9% !important;}
+  .sixth h1 {margin-top: 3%;}
+  #button7 {margin-top: 119%;}
+  .sixth img {width: 79%; right: 16%; top: 45.7%;}
+  .seventh h1 {margin-top: 15.5%; line-height: 12.5vw; width: 80%;}
+  #button8 {margin-top: 15%;}
+  .social {right: auto; top: 48.4%; width: 39.8%; left: 4.8%;}
+  .social_text {right: auto; top: 42.2%; left: 5%;}
+  .logo_futter {width: 41.5%; margin-top: 87.2%;}
+  .futter p {font-size: 4.35vw; line-height: 5vw; margin-top: 3.3%; width: 69%;}
+  .futter {display: inline-block;}
+  .futter > * {display: inline-block;}
+  .year {width: auto !important; float: right; margin-top: 73.5% !important; margin-right: 6%; font-size: 6.2vw !important; line-height: 7.2vw !important;}
+  .futter_photo {width: 215%; right: -1%; bottom: -17.8%;}
+
+}
