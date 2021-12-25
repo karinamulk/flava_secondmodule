@@ -660,3 +660,312 @@ h1 {
   background: #33FEB4;
   transition: all .2s;
 }
+.first h2 {
+  z-index: 100;
+}
+/* .ariana {
+  background: red;
+  height: 94.78%;
+  background-image: url('../images/sprite.png');
+  background-size: 1100% auto;
+  background-position: -0 top;
+  animation: row 3s steps(1) infinite;
+} */
+/* @keyframes row {
+  0% {background-position: 0 top;}
+  10% {background-position: -100% top;}
+  20% {background-position: -200% top;}
+  30% {background-position: -300% top;}
+  40% {background-position: -400% top;}
+  50% {background-position: -500% top;}
+  60% {background-position: -600% top;}
+  70% {background-position: -700% top;}
+  80% {background-position: -800% top;}
+  90% {background-position: -900% top;}
+  100% {background-position: -1000% top;}
+
+} */
+.ariana {
+  opacity: 0;
+}
+
+#sprite0 {
+  opacity: 100%;
+}
+#sprite1 {
+  animation: sprite1 5s linear infinite;
+}
+
+@keyframes sprite1 {
+  0% {opacity: 1;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+#sprite2 {
+  animation: sprite2 5s linear infinite;
+}
+
+@keyframes sprite2 {
+  0% {opacity: 0;}
+  7.143% {opacity: 1;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite3 {
+  animation: sprite3 5s linear infinite;
+}
+
+@keyframes sprite3 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 1;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite4 {
+  animation: sprite4 5s linear infinite;
+}
+
+@keyframes sprite4 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 1;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite5 {
+  animation: sprite5 5s linear infinite;
+}
+
+@keyframes sprite5 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 1;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite6 {
+  animation: sprite6 5s linear infinite;
+}
+
+@keyframes sprite6 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 1;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite7 {
+  animation: sprite7 5s linear infinite;
+}
+
+@keyframes sprite7 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 1;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite8 {
+  animation: sprite8 5s linear infinite;
+}
+
+@keyframes sprite8 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 1;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite9 {
+  animation: sprite9 5s linear infinite;
+}
+
+@keyframes sprite9 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 1;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite10 {
+  animation: sprite10 5s linear infinite;
+}
+
+@keyframes sprite10 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 1;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite11 {
+  animation: sprite11 5s linear infinite;
+}
+
+@keyframes sprite11 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 1;}
+  92.86% {opacity: 0;}
+  100% {opacity: 0;}
+}
+#sprite12 {
+  animation: sprite12 5s linear infinite;
+}
+
+@keyframes sprite12 {
+  0% {opacity: 0;}
+  7.143% {opacity: 0;}
+  14.286% {opacity: 0;}
+  21.429% {opacity: 0;}
+  28.57% {opacity: 0;}
+  35.71% {opacity: 0;}
+  42.85% {opacity: 0;}
+  57.14% {opacity: 0;}
+  64.29% {opacity: 0;}
+  78.57% {opacity: 0;}
+  85.714% {opacity: 0;}
+  92.86% {opacity: 1;}
+  100% {opacity: 0;}
+}
+#sprite13 {
+  animation: sprite13 5s linear infinite;
+}
+
+@keyframes sprite13 {
+  0% {opacity: 0;}
+  6.667% {opacity: 0;}
+  13.334% {opacity: 0;}
+  20% {opacity: 0;}
+  26.668% {opacity: 0;}
+  33.335% {opacity: 0;}
+  40% {opacity: 0;}
+  46.669% {opacity: 0;}
+  53.336% {opacity: 0;}
+  60% {opacity: 0;}
+  66.67% {opacity: 0;}
+  80% {opacity: 0;}
+  86.671% {opacity: 1;}
+  93.338% {opacity: 0;}
+}
+#sprite14 {
+  animation: sprite14 5s linear infinite;
+}
+
+@keyframes sprite14 {
+  0% {opacity: 0;}
+  6.667% {opacity: 0;}
+  13.334% {opacity: 0;}
+  20% {opacity: 0;}
+  26.668% {opacity: 0;}
+  33.335% {opacity: 0;}
+  40% {opacity: 0;}
+  46.669% {opacity: 0;}
+  53.336% {opacity: 0;}
+  60% {opacity: 0;}
+  66.67% {opacity: 0;}
+  80% {opacity: 0;}
+  86.671% {opacity: 0;}
+  93.338% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.button {
+  z-index: 300;
+}
+.first a{
+  z-index: 300;
+  
+}
